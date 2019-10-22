@@ -9,10 +9,7 @@ int main()
 
     float d = 0.00001;
   	if (((z-z1 < d)&&(z - z1 > 0))||((z1 - z < d)&&(z1 - z >0))){
-  		z = z1;
-	  }
-    
-    if (z == z1) {
+  		
         z = (m + x) / y;
     }
     printf("Z is %f\n", z);
