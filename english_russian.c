@@ -6,3 +6,23 @@
 //     è¾“å…¥ä¸¤æ ·éƒ½ä¸ä¼šæœ‰8äºº
 //     è¾“å‡ºä¸¤æ ·éƒ½ä¼šçš„æœ‰   äºº 
 //     è¾“å‡ºï¼šè¾“å…¥æ•°æ®é”™è¯¯ï¼Œæ— æ³•è®¡ç®—
+#include <stdio.h> 
+int main(){
+	int a,E,R,N,b;
+	printf("ÊäÈëÂÃÐÐÉçÓÐ  ÈË");
+	scanf("%d",&a);
+	printf("ÊäÈë»áÓ¢ÓïµÄÓÐ  ÈË");
+	scanf("%d",&E);
+	printf("ÊäÈë»á¶íÓïµÄÓÐ  ÈË");
+	scanf("%d",&R);
+	printf("ÊäÈëÁ½Ñù¶¼²»»áµÄÓÐ  ÈË");
+	scanf("%d",&N);
+		b = (E+R)-(a-N);
+	if(b<0){
+		printf("ÊäÈëÊý¾Ý´íÎó£¬ÎÞ·¨¼ÆËã");
+	}
+		else{ 
+		printf("Á½Ñù¶¼»áÓÐµÄÓÐ%dÈË",b); 
+		} 	
+return 0;
+}
